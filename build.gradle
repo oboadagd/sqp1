@@ -1,0 +1,6 @@
+group 'com.lucidworks.fusion'
+version '0.1'
+
+ext {
+    solrVersion = '8.7.0'
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "type",
+    "concept": 100,
+    "shingle": 40,
+    "text": 10
+  },
+  {
+    "name": "genre",
+    "concept": 100,
+    "shingle": 40,
+    "text": 10
+  },
+  {
+    "name": "format",
+    "concept": 100,
+    "shingle": 40,
+    "text": 10
+  },
+  {
+    "name": "color",
+    "concept": 100,
+    "shingle": 40,
+    "text": 10
+  },
+  {
+    "name": "hardGoodType",
+    "concept": 100,
+    "shingle": 40,
+    "text": 10
+  }
+]

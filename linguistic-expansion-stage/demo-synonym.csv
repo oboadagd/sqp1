@@ -1,0 +1,64 @@
+source_word,synonym_word,linguistic_type
+natural,white,SYN
+snowy,white,SYN
+milky,white,SYN
+chalky,white,SYN
+snow white,white,SYN
+snowy white,white,SYN
+milk white,white,SYN
+milky white,white,SYN
+chalk white,white,SYN
+chalky white,white,SYN
+rose,red,SYN
+ruby,red,SYN
+cherry,red,SYN
+rose,red,SYN
+rosy,red,SYN
+brick red,red,HYP
+navy,blue,SYN
+sky blue,blue,HYP
+cobalt,blue,SYN
+sapphire,blue,SYN
+ultramarine,blue,SYN
+orange,yellow,SYN
+yellowish,yellow,HYP
+yellowy,yellow,HYP
+lemony,yellow,SYN
+amber,yellow,SYN
+gold,yellow,SYN
+golden,yellow,SYN
+nut brown,brown,SYN
+beige,brown,SYN
+tanned,brown,SYN
+browned,brown,SYN
+bronze,brown,SYN
+bronzed,brown,SYN
+silvery,grey,SYN
+smoky,grey,SYN
+sooty,grey,SYN
+silver,grey,SYN
+hoary,grey,SYN
+dark,black,SYN
+jet black,black,SYN
+pale,pastel,SYN
+light,pale,SYN
+pastel,pale,SYN
+muted,pale,SYN
+subtle,pale,SYN
+film,movie,SYN
+picture,movie,SYN
+motion picture,movie,SYN
+feature,movie,SYN
+flick,movie,SYN
+talkie,movie,SYN
+moving picture,movie,SYN
+video,movie,SYN
+cd,compact disk,SYN
+rnb,rhythm and blues,SYN
+modern country,contemporary country,SYN
+contemporary country,country,HYP
+experimental rock,rock,HYP
+hound,dog,SYN
+quick,fast,SYN
+hmr,heavy metal rock,SYN
+metal,heavy metal rock,SYN

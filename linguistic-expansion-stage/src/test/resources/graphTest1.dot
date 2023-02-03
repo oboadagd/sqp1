@@ -1,0 +1,7 @@
+digraph G { 1; 2; 3; 4; 5;
+1 -> 2 [ token="heavy" color="blue" label=<<b>'heavy'</b>> ];
+2 -> 3 [ token="metal" color="blue" label=<<b>'metal'</b>> ];
+3 -> 4 [ token="rock" color="blue" label=<<b>'rock'</b>> ];
+4 -> 5 [ token="style" color="blue" label=<<b>'style'</b>> ];
+1 -> 4 [ token="testedge" label=<<b>'testedge'</b>> ];
+}

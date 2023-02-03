@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.16/6dc192c7f93ec1853f70d59d8a6dcf94eb42866/lombok-1.18.16.jar" />
+        </processorPath>
+        <module name="semantic-search.comprehension-stage.test" />
+        <module name="semantic-search.spellcheck-stage.test" />
+        <module name="semantic-search.weighting-stage.main" />
+        <module name="semantic-search.conceptualization-stage.main" />
+        <module name="semantic-search.query-preparation-stage.main" />
+        <module name="semantic-search.common-utilities.main" />
+        <module name="semantic-search.weighting-stage.test" />
+        <module name="semantic-search.concept-indexing-stage.main" />
+        <module name="semantic-search.initialization-stage.main" />
+        <module name="semantic-search.conceptualization-stage.test" />
+        <module name="semantic-search.sqp-boosting-strategy.test" />
+        <module name="semantic-search.concept-indexing-stage.test" />
+        <module name="semantic-search.initialization-stage.test" />
+        <module name="semantic-search.sqp-boosting-strategy.main" />
+        <module name="semantic-search.common-utilities.test" />
+        <module name="semantic-search.query-preparation-stage.test" />
+        <module name="semantic-search.comprehension-stage.main" />
+        <module name="semantic-search.linguistic-expansion-stage.test" />
+        <module name="semantic-search.spellcheck-stage.main" />
+        <module name="semantic-search.linguistic-expansion-stage.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8" />
+  </component>
+</project>

@@ -1,0 +1,47 @@
+plugins {
+    id 'java-library'
+    id "io.freefair.lombok" version "5.3.0"
+    id "de.undercouch.download" version "4.1.1"
+}
+
+group 'com.lucidworks.fusion'
+version '0.1'
+sourceCompatibility = '11'
+targetCompatibility = '11'
+
+configurations {
+    solrExtension
+}
+configurations {
+    implementation {
+        extendsFrom solrExtension
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    solrExtension "org.jgrapht:jgrapht-core:1.5.0"
+    solrExtension "org.jgrapht:jgrapht-io:1.5.0"
+
+    implementation "org.apache.solr:solr-core:${solrVersion}"
+    implementation "org.apache.solr:solr-solrj:${solrVersion}"
+
+    testImplementation "junit:junit:4.12"
+}
+
+task prepareSolrExtensions(type: Copy) {
+    dependsOn 'jar', 'downloadCompleteANTLR'
+    from configurations.solrExtension, "$buildDir/libs"
+    include "*.jar"
+    into "$buildDir/solrdist"
+}
+
+task downloadCompleteANTLR(type: Download) {
+    src 'https://www.antlr.org/download/antlr-4.9.1-complete.jar'
+    dest "$buildDir/solrdist/antlr-4.9.1-complete.jar"
+    onlyIfModified true
+}

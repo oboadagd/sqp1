@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Plugin-Id: concept-indexing-plugin
+Plugin-Version: 0.0.1
+Plugin-SDK-Version: 1.1.0
+Plugin-Base-Package: com.lucidworks.fusion.semanticsearch.indexing.stage
+ s
+

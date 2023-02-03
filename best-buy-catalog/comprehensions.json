@@ -1,0 +1,22 @@
+[
+  {
+    "key": "cheap",
+    "type": "sort",
+    "field": "regularPrice",
+    "order": "ASC"
+  },
+  {
+    "key": "under",
+    "patterns": ["under", "\\d+", "dollar"],
+    "type": "filter",
+    "field": "regularPrice",
+    "operator": "LESS"
+  },
+  {
+    "key": "between",
+    "patterns": ["between", "\\d+\\s*$*", "and", "\\d+\\s*$*"],
+    "type": "filter",
+    "field": "regularPrice",
+    "operator": "BETWEEN"
+  }
+]
